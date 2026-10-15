@@ -1,0 +1,31 @@
+{
+  "source_commit": "4881ea912345079efeaee5fbd0d287680fd5a06e",
+  "history_strategy": "snapshot with immutable original blob provenance; complete lineage retained in Polaris",
+  "records": [
+    {
+      "action": "move",
+      "source_repository": "pedrobritx/polaris",
+      "source_commit": "4881ea912345079efeaee5fbd0d287680fd5a06e",
+      "source_path": "agents/security_engineer.md",
+      "source_blob": "1b05555802acdc144c54c2c2dfe34ffab8a4f2b0",
+      "destination_repository": "pedrobritx/sentinel",
+      "destination_path": "agents/security_engineer.md",
+      "destination_sha256": "3aabfcb1ecce26839a0e70c7f51909355e03fb32fce7885e8d2cce824f2b0527",
+      "adaptation": "Reviewed governance/context/reference reconciliation; original bytes remain recoverable at source commit.",
+      "source_path_reused_for_governance_index": false
+    },
+    {
+      "action": "move",
+      "source_repository": "pedrobritx/polaris",
+      "source_commit": "4881ea912345079efeaee5fbd0d287680fd5a06e",
+      "source_path": "playbooks/security_review.md",
+      "source_blob": "0b24325b31178fd1b72a2656741adf68eefdaf2e",
+      "destination_repository": "pedrobritx/sentinel",
+      "destination_path": "playbooks/security_review.md",
+      "destination_sha256": "e80619785a2f84f6976ae6a67b4a345245a8aa03cd4aa555a48ba1ce1162fc62",
+      "adaptation": "Reviewed governance/context/reference reconciliation; original bytes remain recoverable at source commit.",
+      "source_path_reused_for_governance_index": false
+    }
+  ],
+  "local_adapters": "Local validators, tests, essential policy templates and contributor entry points may be independently derived; no runtime cross-repository dependency."
+}
