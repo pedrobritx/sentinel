@@ -1,6 +1,6 @@
 # Sentinel
 
-Independent security engineering guidance extracted from the BSF security role and review playbook. It owns threat/trust-boundary review, control requirements and evidence. It is not an authentication provider, a runtime dependency or an assurance certification.
+Independent security engineering guidance extracted from the original Polaris security role and review playbook. It owns threat/trust-boundary review, control requirements and evidence. It is not an authentication provider, a runtime dependency or an assurance certification.
 
 Start with [the security review](playbooks/security_review.md), [project context](guidance/project-context.md) and [the security engineer role](agents/security_engineer.md). A project supplies its actual auth, data, deployment and privacy context; Axis and Polaris are optional.
 
