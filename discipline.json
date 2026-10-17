@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "id": "sentinel",
+  "repository": "pedrobritx/sentinel",
+  "entrypoint": "AGENTS.md",
+  "context": ["README.md", "guidance/project-context.md", "agents/security_engineer.md", "playbooks/security_review.md"],
+  "owns": ["Reusable security review and threat/control methods", "Security evidence requirements and review guidance"],
+  "outputs": ["Project threat boundaries and required controls", "Concrete findings with severity, evidence and practical correction", "Fresh verification results, residual risks and unresolved security coverage"]
+}
