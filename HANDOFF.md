@@ -11,7 +11,14 @@ The 2026-10-16 owner request establishes Polaris as the usual coordinator and ke
 
 Run the documented local checks. Review the coordinated changes before merge; no release, deployment, provider configuration or automatic merge is included. Source revisions and local modifications are recorded by the planner; its output is a plan, not completed specialist work.
 
+## Naming follow-up provenance
+
+The standalone canonical-naming draft (Sentinel PR #2) corrected the extraction-origin wording and introduced [the normalization ledger](migration/name-normalization.json). This combined review retains that exact ledger and the composed README from Sentinel PR #3. The ledger's `before_sha256` and `after_sha256` values refer to the original, earlier naming-only snapshot; they **do not** claim that the combined composition revisions have identical hashes. The naming follow-up is historical review evidence, not a second active composition policy.
+
 ## Previous record (historical)
+
+Canonical naming follow-up originally used `refactor/canonical-polaris-axis-names`. The initial extraction was already merged; the naming-only normalization snapshot requires its own review evidence and is retained separately from the latest handoff. It should not replace current operational guidance.
+
 
 ---
 title: Sentinel extraction handoff
