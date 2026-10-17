@@ -1,0 +1,27 @@
+{
+  "base_commit": "d1e678e966c86ffe39ebf8bfbd19d9ac242a3c1b",
+  "scope": "Canonical product naming; immutable original Git objects and extraction provenance remain historical evidence. Source paths use reversible UTF-8 hex. This ledger excludes itself.",
+  "records": [
+    {
+      "action": "M",
+      "source_path_utf8_hex": "4348414e47454c4f472e6d64",
+      "path": "CHANGELOG.md",
+      "before_sha256": "f59601826e896484b428ec9202ce07f95bac88a34608075507a31a1bfad3041e",
+      "after_sha256": "0af24e2393e3bb597a2f85851fd5fd8b2ed11ba7d6a9eba681c33fedd147350b"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "48414e444f46462e6d64",
+      "path": "HANDOFF.md",
+      "before_sha256": "f4f3f5e7cd27ed94030b5602c615e642644336cff05da2f64e424ad86eaf8884",
+      "after_sha256": "b49ec4616d77ac4f2f5aeb65b40e0557453e37fda341e0343ce02d326c3ea945"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "524541444d452e6d64",
+      "path": "README.md",
+      "before_sha256": "9b683fdc9b786ffa05c008dfa9fb9f21f3af4c6adec844b938867f0c9d9798d1",
+      "after_sha256": "38e49f19e61b35f66137d6cfaf922a75e5966ea56b3d2196ca23c3b880a912f7"
+    }
+  ]
+}
