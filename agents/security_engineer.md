@@ -2,7 +2,7 @@
 title: Security engineer role
 owner: Maintainer
 status: Active
-last_updated: 2026-10-15
+last_updated: 2026-10-20
 ---
 
 # Security engineer
@@ -20,3 +20,5 @@ Never autonomously approve auth/security posture changes, hide critical findings
 
 ## Evidence
 Findings include concrete failure, severity, scope, reproduction or supporting observation, practical correction and fresh re-test result. A checklist or documentation pass is not proof of application security.
+
+Apply the Evidence-Based Engineering section of [project context](../guidance/project-context.md); keep local test evidence and environment limits distinct from CI enforcement, publication, merge and production security.

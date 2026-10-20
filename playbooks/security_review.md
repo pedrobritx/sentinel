@@ -2,7 +2,7 @@
 title: Security review playbook
 owner: Maintainer
 status: Active
-last_updated: 2026-10-15
+last_updated: 2026-10-20
 ---
 
 # Security review
@@ -23,3 +23,5 @@ Review a sensitive change, periodic security scope or pre-release risk within ex
 
 ## Completion
 Required evidence exists; no unresolved critical/high finding is treated as passed. Unknowns remain explicit. Update the adopting project's threat model or incident record when the review changes them. No deployment or external configuration is authorised by this playbook.
+
+Apply [the local-first evidence requirements](../guidance/project-context.md) before remote/shared publication. Include environment/reproduction limits and scoped exceptions; repeat affected checks after fixes. Local results, CI enforcement, merge, deployment and observed runtime controls are separate evidence states.
